@@ -63,11 +63,10 @@ nav h3{
 /* top banner */
 
 .top-banner{
-    display: flex;
-    
+    display: flex;   
 }
 .top-banner img{
-    display: block;
+    /* display: block; */
     transition: 1s;
 }
 .top-banner img:hover{
@@ -122,7 +121,7 @@ P{
     margin-left: 5px;
 }
 /* logos */
-.logos {
+.logos ul{
     width: 90%;
     margin: auto;
     margin-top: 125px;
@@ -131,7 +130,7 @@ P{
     border-bottom: 2px solid rgb(224, 215, 215);
     padding: 36px;
     /* margin-left: 120px; */
-    
+    flex-wrap: wrap;
 }
 
 /* <!-- Popular collections --> */
@@ -303,7 +302,7 @@ footer{
         display: none;
     }
     .top-banner{
-        flex-direction: column-reverse; /* to make 2 divs change order */
+        flex-direction: column-reverse; /* to make  divs reverse in order */
         width: 100%;
         text-align: center;
         
@@ -322,6 +321,15 @@ footer{
     .top-banner img{
         width: 80%;
         margin: 0;
+        transition: 1s;
+    }
+    .top-banner img:hover{
+        transform: scale(1.15);
+    }
+    .logos ul{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     .products{
@@ -373,6 +381,10 @@ footer{
     .top-banner img{
         width: 80%;
         margin: 0;
+        transition: 1s;
+    }
+    .top-banner img:hover{
+        transform: scale(1.15);
     }
 
     .products{

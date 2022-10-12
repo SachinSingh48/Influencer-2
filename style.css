@@ -66,6 +66,13 @@ nav h3{
     display: flex;
     
 }
+.top-banner img{
+    display: block;
+    transition: 1s;
+}
+.top-banner img:hover{
+    transform: scale(1.15);
+}
 
 .top-tittle{
     padding-top: 50px;

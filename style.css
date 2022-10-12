@@ -20,7 +20,7 @@ nav{
 .nav-right i{
     color: #3A3A3A;
 }
-ul{
+nav ul{
     list-style: none;
     display: flex;
     /* justify-content: space-between; */
@@ -122,6 +122,7 @@ P{
 }
 /* logos */
 .logos ul{
+    display: flex;
     width: 90%;
     margin: auto;
     margin-top: 125px;
@@ -131,6 +132,8 @@ P{
     padding: 36px;
     /* margin-left: 120px; */
     flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
 }
 
 /* <!-- Popular collections --> */
